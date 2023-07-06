@@ -39,24 +39,6 @@ func (s *BaseMmlListener) EnterOpType(ctx *OpTypeContext) {}
 // ExitOpType is called when production opType is exited.
 func (s *BaseMmlListener) ExitOpType(ctx *OpTypeContext) {}
 
-// EnterAttribute is called when production attribute is entered.
-func (s *BaseMmlListener) EnterAttribute(ctx *AttributeContext) {}
-
-// ExitAttribute is called when production attribute is exited.
-func (s *BaseMmlListener) ExitAttribute(ctx *AttributeContext) {}
-
-// EnterIdentifier is called when production identifier is entered.
-func (s *BaseMmlListener) EnterIdentifier(ctx *IdentifierContext) {}
-
-// ExitIdentifier is called when production identifier is exited.
-func (s *BaseMmlListener) ExitIdentifier(ctx *IdentifierContext) {}
-
-// EnterUnderScore is called when production underScore is entered.
-func (s *BaseMmlListener) EnterUnderScore(ctx *UnderScoreContext) {}
-
-// ExitUnderScore is called when production underScore is exited.
-func (s *BaseMmlListener) ExitUnderScore(ctx *UnderScoreContext) {}
-
 // EnterMmlList is called when production mmlList is entered.
 func (s *BaseMmlListener) EnterMmlList(ctx *MmlListContext) {}
 
@@ -68,33 +50,3 @@ func (s *BaseMmlListener) EnterCondition(ctx *ConditionContext) {}
 
 // ExitCondition is called when production condition is exited.
 func (s *BaseMmlListener) ExitCondition(ctx *ConditionContext) {}
-
-// EnterValue is called when production value is entered.
-func (s *BaseMmlListener) EnterValue(ctx *ValueContext) {}
-
-// ExitValue is called when production value is exited.
-func (s *BaseMmlListener) ExitValue(ctx *ValueContext) {}
-
-// EnterNumberInt is called when production numberInt is entered.
-func (s *BaseMmlListener) EnterNumberInt(ctx *NumberIntContext) {}
-
-// ExitNumberInt is called when production numberInt is exited.
-func (s *BaseMmlListener) ExitNumberInt(ctx *NumberIntContext) {}
-
-// EnterNumber is called when production number is entered.
-func (s *BaseMmlListener) EnterNumber(ctx *NumberContext) {}
-
-// ExitNumber is called when production number is exited.
-func (s *BaseMmlListener) ExitNumber(ctx *NumberContext) {}
-
-// EnterQuotedString is called when production quotedString is entered.
-func (s *BaseMmlListener) EnterQuotedString(ctx *QuotedStringContext) {}
-
-// ExitQuotedString is called when production quotedString is exited.
-func (s *BaseMmlListener) ExitQuotedString(ctx *QuotedStringContext) {}
-
-// EnterPattern is called when production pattern is entered.
-func (s *BaseMmlListener) EnterPattern(ctx *PatternContext) {}
-
-// ExitPattern is called when production pattern is exited.
-func (s *BaseMmlListener) ExitPattern(ctx *PatternContext) {}
